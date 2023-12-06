@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(138, 113, 163);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  background-color: rgb(165, 154, 199);
+  width: 40%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  border-radius: 15%;
+  flex-wrap: wrap;
+  gap: 25%;
+  align-items: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#blue {
+  background-color: blue;
+  width: 20%;
+  height: 20%;
+}
+
+#red {
+  background-color: red;
+  width: 20%;
+  height: 20%;
+}
+#green {
+  background-color: green;
+  width: 20%;
+  height: 20%;
+}
+
+#yellow {
+  background-color: rgb(234, 255, 0);
+  width: 20%;
+  height: 20%;
+}
+
+.panel {
+  width: 30% !important;
+  height: 30% !important;
+  border-radius: 50%;
+}
+
+.active {
+  background-color: white !important;
+}
+
+.clicked {
+  background-color: grey;
+  border: 9px groove #b39d9b;
+}
+
+button {
+  border: none;
+  background-color: rgb(228, 182, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  width: 25%;
+  height: 10%;
+  font-size: 50px;
+}
+
+#score {
+    position: absolute;
+    color: #000000;
+}
